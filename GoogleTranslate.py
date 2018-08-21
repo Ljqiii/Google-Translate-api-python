@@ -1,10 +1,7 @@
-from abc import abstractclassmethod
-from getTKK import getTKK
+from .GetTKK import getTKK
 import time
 import ctypes
 import requests
-
-
 
 
 
@@ -122,12 +119,6 @@ class GoogleTranslate():
         return str(int(a))+ "." + str(int(a) ^ b)
 
 
-
-
-
-
-a = GoogleTranslate(domainnames="cn",sl="en",tl="zh-CN")
-
-
-print(a.trans("I am a boy and she is a girl."))
-print(a.trans("She is a girl."))
+#a = GoogleTranslate(domainnames="cn",sl="en",tl="zh-CN")
+#print(a.trans("I am a boy and she is a girl."))
+#print(a.trans("She is a girl."))

@@ -4,7 +4,7 @@ A python wrapped free and unlimited API for Google Translate.
 ### Install
 
 ```
-pip insatll https://github.com/Ljqiii/google_translate_api_python/archive/master.zip
+pip install https://github.com/Ljqiii/google_translate_api_python/archive/master.zip
 ```
 
 

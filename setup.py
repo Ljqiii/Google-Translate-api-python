@@ -1,5 +1,5 @@
-from distutils.core import setup
-setup(
+import setuptools
+setuptools.setup(
     name="google_translate_api_python",
     version="1.0.0",
     description="A python wrapped free and unlimited API for Google Translate.",

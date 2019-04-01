@@ -86,7 +86,6 @@ class GoogleTranslate():
 
     def _gettk(self,a):
 
-        # print(self.TKK)
         d = self.TKK.split(".")
         b = int(d[0])
         e = []
@@ -119,6 +118,6 @@ class GoogleTranslate():
         return str(int(a))+ "." + str(int(a) ^ b)
 
 
-#a = GoogleTranslate(domainnames="cn",sl="en",tl="zh-CN")
-#print(a.trans("I am a boy and she is a girl."))
-#print(a.trans("She is a girl."))
+# a = GoogleTranslate(domainnames="cn",sl="en",tl="zh-CN")
+# print(a.trans("I am a boy and she is a girl."))
+# print(a.trans("She is a girl."))
